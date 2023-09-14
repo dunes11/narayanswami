@@ -1,0 +1,11 @@
+{
+    "name": "demo2023",
+    "version": "19.13.1",
+    "description": "demo2023",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "private": true,
+    "dependencies": {},
+    "engines": {
+        "node": ">=16"
+    }
+}

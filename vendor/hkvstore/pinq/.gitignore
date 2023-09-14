@@ -1,0 +1,7 @@
+/vendor/
+/nbproject/
+composer.lock
+/.idea/
+/_site/
+*.cache
+/.vscode

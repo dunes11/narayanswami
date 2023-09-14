@@ -1,0 +1,54 @@
+{
+    "name": "portphp/portphp",
+    "description": "Data import/export workflow",
+    "keywords": [ "data", "import", "export", "csv", "excel", "doctrine" ],
+    "license": "MIT",
+    "homepage": "https://github.com/portphp",
+    "authors": [
+        {
+            "name": "David de Boer",
+            "email": "david@ddeboer.nl"
+        },
+        {
+            "name": "Markus Bachmann",
+            "email": "markus.bachmann@bachi.biz"
+        },
+        {
+            "name": "Community contributors",
+            "homepage": "https://github.com/portphp/portphp/graphs/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/portphp/portphp/issues",
+        "source": "https://github.com/portphp/portphp",
+        "docs": "https://portphp.readthedocs.org"
+    },
+    "require": {
+        "php": ">=7.4",
+        "symfony/property-access": "^4.4 || ^5.4 || ^6.0",
+        "symfony/validator": "^4.4 || ^5.4 || ^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Port\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Port\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "ext-iconv": "*",
+        "ext-mbstring": "*",
+        "phpunit/phpunit": "^9.5",
+        "phpspec/phpspec": "^7.2",
+        "doctrine/instantiator": "^1.0.5",
+        "doctrine/common": "^2.7 || ^3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
